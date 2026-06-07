@@ -14,6 +14,18 @@ Built by **Scaefy** — modern hosting, domain, and server solutions. Learn more
 | Theme | Description | Screenshot |
 |-------|-------------|------------|
 | scaefy-light | A clean, bright light theme based on Atom One Light | ![scaefy-light](screenshots/scaefy-light.png) |
+| scaefy-solarized-light | Solarized light — warm, earthy, low contrast | — |
+| scaefy-vivid-light | Vivid light — bright, saturated, modern | — |
+| scaefy-coffee-cream | Coffee cream — warm beige with rich accents | — |
+| scaefy-gold-d-raynh-light | Gold D Raynh — vibrant blue & gold tones | — |
+| scaefy-melle-julie-light | Melle Julie Light — soft teal with purple accents | — |
+| scaefy-classic-light | Classic light — clean neutral light theme | — |
+| scaefy-hc-flurry | HC Flurry — high contrast light theme | — |
+| scaefy-milkshake-raspberry | Milkshake Raspberry — pink-toned light theme | — |
+| scaefy-milkshake-blueberry | Milkshake Blueberry — blue-purple light theme | — |
+| scaefy-milkshake-mango | Milkshake Mango — warm orange light theme | — |
+| scaefy-milkshake-mint | Milkshake Mint — cool green light theme | — |
+| scaefy-milkshake-vanilla | Milkshake Vanilla — warm yellow light theme | — |
 
 ## Installation
 

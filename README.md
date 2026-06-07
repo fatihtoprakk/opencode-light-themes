@@ -2,6 +2,13 @@
 
 A curated collection of light color themes for [OpenCode](https://opencode.ai).
 
+Built by **Scaefy** — modern hosting, domain, and server solutions. Learn more at [scaefy.com](https://scaefy.com).
+
+| Platform | Repository |
+|----------|------------|
+| GitHub | [github.com/fatihtoprakk/opencode-light-themes](https://github.com/fatihtoprakk/opencode-light-themes) |
+| GitLab | [gitlab.com/fatihtoprak/opencode-light-themes](https://gitlab.com/fatihtoprak/opencode-light-themes) |
+
 ## Themes
 
 | Theme | Description | Screenshot |
@@ -48,3 +55,7 @@ Start OpenCode and use the `/theme` command to select your theme, or set it in `
 ## License
 
 MIT
+
+---
+
+*Part of the [Scaefy](https://scaefy.com) open source ecosystem.*

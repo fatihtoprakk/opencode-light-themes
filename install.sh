@@ -28,5 +28,9 @@ for theme in "$REPO_DIR"/themes/*.json; do
   echo "  • $name"
 done
 echo ""
+echo ""
+echo "📖 English: README.md"
+echo "📖 Türkçe: TR.md"
+echo ""
 echo "Done! Use /theme in OpenCode or set in tui.json:"
 echo '  { "theme": "scaefy-light" }'

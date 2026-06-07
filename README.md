@@ -1,5 +1,7 @@
 # OpenCode Light Themes
 
+> **English** · [Türkçe](TR.md)
+
 A curated collection of light color themes for [OpenCode](https://opencode.ai).
 
 Built by **Scaefy** — modern hosting, domain, and server solutions. Learn more at [scaefy.com](https://scaefy.com).
@@ -11,9 +13,9 @@ Built by **Scaefy** — modern hosting, domain, and server solutions. Learn more
 
 ---
 
-## Why This Repository is Needed — Bu Depo Neden Gerekli?
+## Why This Repository is Needed
 
-**EN:** OpenCode has not removed light (light mode) themes, but recent updates to the menu structure and bug fixes have made them harder to find or they may appear temporarily unavailable. The main reasons users might have difficulty accessing light themes are:
+OpenCode has not removed light (light mode) themes, but recent updates to the menu structure and bug fixes have made them harder to find or they may appear temporarily unavailable. The main reasons users might have difficulty accessing light themes are:
 
 - **Hidden Menu Structure:** Light themes are no longer listed prominently in the default `/themes` command. Instead, press **Ctrl + P** and search for `"Toggle theme mode"` or `"Switch to light mode"` to switch between dark and light variants.
 - **Compatibility & Visibility Issues:** Previous updates introduced technical issues with automatic background detection (OSC 11 query), causing text in code or input fields to become invisible on certain light configurations. Some light variants were temporarily disabled while fixes were applied.
@@ -23,20 +25,10 @@ To activate a light theme, press **Ctrl + P**, type `"Switch to light mode"`, an
 
 ---
 
-**TR:** OpenCode, açık (light) temaları kaldırmamıştır, ancak menü yapısındaki güncellemeler ve hata düzeltmeleri nedeniyle bu temaları bulmak zorlaşmış veya geçici olarak kullanılamaz hale gelmiş olabilir. Kullanıcıların açık temalara erişememesinin başlıca nedenleri:
+## Themes
 
-- **Gizli Menü Yapısı:** Açık temalar artık `/themes` komutunda doğrudan listelenmemektedir. Bunun yerine **Ctrl + P** tuşlarına basıp `"Toggle theme mode"` veya `"Switch to light mode"` yazarak koyu/açık tema arasında geçiş yapabilirsiniz.
-- **Uyumluluk ve Görünürlük Sorunları:** Önceki güncellemelerde otomatik arka plan algılama (OSC 11 sorgusu) ile ilgili teknik sorunlar yaşanmış, bazı açık tema varyantlarında kod veya giriş alanlarındaki metinler görünmez olmuştur. Bu nedenle bazı varyantlar geçici olarak devre dışı bırakılmıştır.
-- **Terminal Şeffaflığı:** Terminal şeffaflığı özelliği, açık temalarda kontrast hesaplamalarını etkilemiş ve bazı kullanıcılar varsayılan olarak yalnızca koyu temaları görmeye başlamıştır.
-
-Açık temayı etkinleştirmek için **Ctrl + P** tuşlarına basın, `"Switch to light mode"` yazın ve komutu seçin. Bu depodaki temaları manuel olarak `~/.config/opencode/themes/` dizinine kopyalayarak da kullanabilirsiniz.
-
----
-
-## Themes / Temalar
-
-| Theme | Description / Açıklama | Screenshot |
-|-------|------------------------|------------|
+| Theme | Description | Screenshot |
+|-------|-------------|------------|
 | scaefy-light | A clean, bright theme based on Atom One Light | ![scaefy-light](screenshots/scaefy-light.png) |
 | scaefy-solarized-light | Solarized — warm, earthy, low contrast | ![scaefy-solarized-light](screenshots/scaefy-solarized-light.png) |
 | scaefy-vivid-light | Vivid — bright, saturated, modern | ![scaefy-vivid-light](screenshots/scaefy-vivid-light.png) |
@@ -61,27 +53,24 @@ Açık temayı etkinleştirmek için **Ctrl + P** tuşlarına basın, `"Switch t
 
 ---
 
-## Installation / Kurulum
+## Installation
 
-### Automatic / Otomatik (recommended / önerilen)
+### Automatic (recommended)
 
 ```bash
 chmod +x install.sh
 ./install.sh
 ```
 
-### Manual / Elle
+### Manual
 
-**EN:** Copy the theme JSON file to your OpenCode themes directory:
-
-**TR:** Tema JSON dosyasını OpenCode tema dizininize kopyalayın:
+Copy the desired theme JSON file to your OpenCode themes directory:
 
 ```bash
 cp themes/scaefy-light.json ~/.config/opencode/themes/
 ```
 
 Then set it in `~/.config/opencode/tui.json`:
-Ardından `~/.config/opencode/tui.json` dosyasında ayarlayın:
 
 ```json
 {
@@ -91,33 +80,23 @@ Ardından `~/.config/opencode/tui.json` dosyasında ayarlayın:
 
 ---
 
-## Usage / Kullanım
+## Usage
 
-**EN:** Start OpenCode and use the `/theme` command to select your theme, or set it in `tui.json`.
-
-**TR:** OpenCode'u başlatın ve tema seçmek için `/theme` komutunu kullanın veya `tui.json` dosyasında ayarlayın.
+Start OpenCode and use the `/theme` command to select your theme, or set it in `tui.json`.
 
 ---
 
-## Contributing / Katkı
+## Contributing
 
-**EN:**
 1. Fork the repository
 2. Add your theme JSON file under `themes/`
 3. Add a screenshot under `screenshots/`
 4. Update README.md table
 5. Submit a Pull Request
 
-**TR:**
-1. Depoyu fork edin
-2. Tema JSON dosyanızı `themes/` altına ekleyin
-3. Ekran görüntüsünü `screenshots/` altına ekleyin
-4. README.md tablosunu güncelleyin
-5. Pull Request gönderin
-
 ---
 
-## License / Lisans
+## License
 
 MIT
 

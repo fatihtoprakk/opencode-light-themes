@@ -9,42 +9,71 @@ Built by **Scaefy** — modern hosting, domain, and server solutions. Learn more
 | GitHub | [github.com/fatihtoprakk/opencode-light-themes](https://github.com/fatihtoprakk/opencode-light-themes) |
 | GitLab | [gitlab.com/fatihtoprak/opencode-light-themes](https://gitlab.com/fatihtoprak/opencode-light-themes) |
 
-## Themes
+---
 
-| Theme | Description | Screenshot |
-|-------|-------------|------------|
-| scaefy-light | A clean, bright light theme based on Atom One Light | ![scaefy-light](screenshots/scaefy-light.png) |
-| scaefy-solarized-light | Solarized light — warm, earthy, low contrast | ![scaefy-solarized-light](screenshots/scaefy-solarized-light.png) |
-| scaefy-vivid-light | Vivid light — bright, saturated, modern | ![scaefy-vivid-light](screenshots/scaefy-vivid-light.png) |
+## Why This Repository is Needed — Bu Depo Neden Gerekli?
+
+**EN:** OpenCode has not removed light (light mode) themes, but recent updates to the menu structure and bug fixes have made them harder to find or they may appear temporarily unavailable. The main reasons users might have difficulty accessing light themes are:
+
+- **Hidden Menu Structure:** Light themes are no longer listed prominently in the default `/themes` command. Instead, press **Ctrl + P** and search for `"Toggle theme mode"` or `"Switch to light mode"` to switch between dark and light variants.
+- **Compatibility & Visibility Issues:** Previous updates introduced technical issues with automatic background detection (OSC 11 query), causing text in code or input fields to become invisible on certain light configurations. Some light variants were temporarily disabled while fixes were applied.
+- **Terminal Transparency:** Updates enabling terminal transparency affected contrast calculations for light themes, causing some users to see only dark themes by default.
+
+To activate a light theme, press **Ctrl + P**, type `"Switch to light mode"`, and select the command. You can also install any theme from this repository manually into `~/.config/opencode/themes/`.
+
+---
+
+**TR:** OpenCode, açık (light) temaları kaldırmamıştır, ancak menü yapısındaki güncellemeler ve hata düzeltmeleri nedeniyle bu temaları bulmak zorlaşmış veya geçici olarak kullanılamaz hale gelmiş olabilir. Kullanıcıların açık temalara erişememesinin başlıca nedenleri:
+
+- **Gizli Menü Yapısı:** Açık temalar artık `/themes` komutunda doğrudan listelenmemektedir. Bunun yerine **Ctrl + P** tuşlarına basıp `"Toggle theme mode"` veya `"Switch to light mode"` yazarak koyu/açık tema arasında geçiş yapabilirsiniz.
+- **Uyumluluk ve Görünürlük Sorunları:** Önceki güncellemelerde otomatik arka plan algılama (OSC 11 sorgusu) ile ilgili teknik sorunlar yaşanmış, bazı açık tema varyantlarında kod veya giriş alanlarındaki metinler görünmez olmuştur. Bu nedenle bazı varyantlar geçici olarak devre dışı bırakılmıştır.
+- **Terminal Şeffaflığı:** Terminal şeffaflığı özelliği, açık temalarda kontrast hesaplamalarını etkilemiş ve bazı kullanıcılar varsayılan olarak yalnızca koyu temaları görmeye başlamıştır.
+
+Açık temayı etkinleştirmek için **Ctrl + P** tuşlarına basın, `"Switch to light mode"` yazın ve komutu seçin. Bu depodaki temaları manuel olarak `~/.config/opencode/themes/` dizinine kopyalayarak da kullanabilirsiniz.
+
+---
+
+## Themes / Temalar
+
+| Theme | Description / Açıklama | Screenshot |
+|-------|------------------------|------------|
+| scaefy-light | A clean, bright theme based on Atom One Light | ![scaefy-light](screenshots/scaefy-light.png) |
+| scaefy-solarized-light | Solarized — warm, earthy, low contrast | ![scaefy-solarized-light](screenshots/scaefy-solarized-light.png) |
+| scaefy-vivid-light | Vivid — bright, saturated, modern | ![scaefy-vivid-light](screenshots/scaefy-vivid-light.png) |
 | scaefy-coffee-cream | Coffee cream — warm beige with rich accents | ![scaefy-coffee-cream](screenshots/scaefy-coffee-cream.png) |
 | scaefy-gold-d-raynh-light | Gold D Raynh — vibrant blue & gold tones | ![scaefy-gold-d-raynh-light](screenshots/scaefy-gold-d-raynh-light.png) |
-| scaefy-melle-julie-light | Melle Julie Light — soft teal with purple accents | ![scaefy-melle-julie-light](screenshots/scaefy-melle-julie-light.png) |
-| scaefy-classic-light | Classic light — clean neutral light theme | ![scaefy-classic-light](screenshots/scaefy-classic-light.png) |
+| scaefy-melle-julie-light | Melle Julie — soft teal with purple accents | ![scaefy-melle-julie-light](screenshots/scaefy-melle-julie-light.png) |
+| scaefy-classic-light | Classic — clean neutral light theme | ![scaefy-classic-light](screenshots/scaefy-classic-light.png) |
 | scaefy-hc-flurry | HC Flurry — high contrast light theme | ![scaefy-hc-flurry](screenshots/scaefy-hc-flurry.png) |
-| scaefy-milkshake-raspberry | Milkshake Raspberry — pink-toned light theme | ![scaefy-milkshake-raspberry](screenshots/scaefy-milkshake-raspberry.png) |
-| scaefy-milkshake-blueberry | Milkshake Blueberry — blue-purple light theme | ![scaefy-milkshake-blueberry](screenshots/scaefy-milkshake-blueberry.png) |
-| scaefy-milkshake-mango | Milkshake Mango — warm orange light theme | ![scaefy-milkshake-mango](screenshots/scaefy-milkshake-mango.png) |
-| scaefy-milkshake-mint | Milkshake Mint — cool green light theme | ![scaefy-milkshake-mint](screenshots/scaefy-milkshake-mint.png) |
-| scaefy-milkshake-vanilla | Milkshake Vanilla — warm yellow light theme | ![scaefy-milkshake-vanilla](screenshots/scaefy-milkshake-vanilla.png) |
+| scaefy-milkshake-raspberry | Milkshake Raspberry — pink-toned | ![scaefy-milkshake-raspberry](screenshots/scaefy-milkshake-raspberry.png) |
+| scaefy-milkshake-blueberry | Milkshake Blueberry — blue-purple | ![scaefy-milkshake-blueberry](screenshots/scaefy-milkshake-blueberry.png) |
+| scaefy-milkshake-mango | Milkshake Mango — warm orange | ![scaefy-milkshake-mango](screenshots/scaefy-milkshake-mango.png) |
+| scaefy-milkshake-mint | Milkshake Mint — cool green | ![scaefy-milkshake-mint](screenshots/scaefy-milkshake-mint.png) |
+| scaefy-milkshake-vanilla | Milkshake Vanilla — warm yellow | ![scaefy-milkshake-vanilla](screenshots/scaefy-milkshake-vanilla.png) |
 
-## Installation
+---
 
-### Automatic (recommended)
+## Installation / Kurulum
+
+### Automatic / Otomatik (recommended / önerilen)
 
 ```bash
 chmod +x install.sh
 ./install.sh
 ```
 
-### Manual
+### Manual / Elle
 
-Copy the desired theme JSON file to your OpenCode themes directory:
+**EN:** Copy the theme JSON file to your OpenCode themes directory:
+
+**TR:** Tema JSON dosyasını OpenCode tema dizininize kopyalayın:
 
 ```bash
 cp themes/scaefy-light.json ~/.config/opencode/themes/
 ```
 
 Then set it in `~/.config/opencode/tui.json`:
+Ardından `~/.config/opencode/tui.json` dosyasında ayarlayın:
 
 ```json
 {
@@ -52,19 +81,35 @@ Then set it in `~/.config/opencode/tui.json`:
 }
 ```
 
-## Usage
+---
 
-Start OpenCode and use the `/theme` command to select your theme, or set it in `tui.json`.
+## Usage / Kullanım
 
-## Contributing
+**EN:** Start OpenCode and use the `/theme` command to select your theme, or set it in `tui.json`.
 
+**TR:** OpenCode'u başlatın ve tema seçmek için `/theme` komutunu kullanın veya `tui.json` dosyasında ayarlayın.
+
+---
+
+## Contributing / Katkı
+
+**EN:**
 1. Fork the repository
 2. Add your theme JSON file under `themes/`
 3. Add a screenshot under `screenshots/`
 4. Update README.md table
 5. Submit a Pull Request
 
-## License
+**TR:**
+1. Depoyu fork edin
+2. Tema JSON dosyanızı `themes/` altına ekleyin
+3. Ekran görüntüsünü `screenshots/` altına ekleyin
+4. README.md tablosunu güncelleyin
+5. Pull Request gönderin
+
+---
+
+## License / Lisans
 
 MIT
 

@@ -21,5 +21,12 @@ for theme in "$REPO_DIR"/themes/*.json; do
 done
 
 echo ""
+echo ""
+echo "Available themes:"
+for theme in "$REPO_DIR"/themes/*.json; do
+  name=$(basename "$theme" .json)
+  echo "  • $name"
+done
+echo ""
 echo "Done! Use /theme in OpenCode or set in tui.json:"
 echo '  { "theme": "scaefy-light" }'

@@ -50,6 +50,14 @@ Açık temayı etkinleştirmek için **Ctrl + P** tuşlarına basın, `"Switch t
 | scaefy-milkshake-mango | Milkshake Mango — warm orange | ![scaefy-milkshake-mango](screenshots/scaefy-milkshake-mango.png) |
 | scaefy-milkshake-mint | Milkshake Mint — cool green | ![scaefy-milkshake-mint](screenshots/scaefy-milkshake-mint.png) |
 | scaefy-milkshake-vanilla | Milkshake Vanilla — warm yellow | ![scaefy-milkshake-vanilla](screenshots/scaefy-milkshake-vanilla.png) |
+| scaefy-bluloco-light | A fancy and sophisticated light color scheme from Bluloco Light | ![scaefy-bluloco-light](screenshots/scaefy-bluloco-light.png) |
+| scaefy-brackets-light-pro | A light theme inspired by the Brackets editor default look | ![scaefy-brackets-light-pro](screenshots/scaefy-brackets-light-pro.png) |
+| scaefy-ysgrifennwr | A light color scheme based on the Ysgrifennwr theme for writers | ![scaefy-ysgrifennwr](screenshots/scaefy-ysgrifennwr.png) |
+| scaefy-netbeans-light | A light theme replicating the NetBeans IDE default look | ![scaefy-netbeans-light](screenshots/scaefy-netbeans-light.png) |
+| scaefy-quiet-light | A finely tuned light theme with soft, easy-on-the-eyes colors | ![scaefy-quiet-light](screenshots/scaefy-quiet-light.png) |
+| scaefy-hop-light | A fresh, hop-inspired light theme with italic variants | ![scaefy-hop-light](screenshots/scaefy-hop-light.png) |
+| scaefy-github-light | A light theme based on GitHub's own color scheme | ![scaefy-github-light](screenshots/scaefy-github-light.png) |
+| scaefy-github-plus | A modern light theme inspired by GitHub color palette | ![scaefy-github-plus](screenshots/scaefy-github-plus.png) |
 
 ---
 

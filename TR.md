@@ -4,13 +4,6 @@
 
 [OpenCode](https://opencode.ai) için açık renk temaları koleksiyonu.
 
-**Scaefy** tarafından geliştirilmiştir — modern hosting, domain ve sunucu çözümleri. Detaylı bilgi: [scaefy.com](https://scaefy.com).
-
-| Platform | Depo |
-|----------|------|
-| GitHub | [github.com/fatihtoprakk/opencode-light-themes](https://github.com/fatihtoprakk/opencode-light-themes) |
-| GitLab | [gitlab.com/fatihtoprak/opencode-light-themes](https://gitlab.com/fatihtoprak/opencode-light-themes) |
-
 ---
 
 ## Bu Depo Neden Gerekli?
@@ -102,6 +95,15 @@ MIT
 
 ---
 
+## Depolar
+
+| Platform | URL |
+|----------|-----|
+| GitHub | [github.com/fatihtoprakk/opencode-light-themes](https://github.com/fatihtoprakk/opencode-light-themes) |
+| GitLab | [gitlab.com/fatihtoprak/opencode-light-themes](https://gitlab.com/fatihtoprak/opencode-light-themes) |
+
+---
+
 [![Awesome Opencode](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/awesome-opencode/awesome-opencode)
 
-*[Scaefy](https://scaefy.com) açık kaynak ekosisteminin bir parçasıdır.*
+*[Scaefy](https://scaefy.com) tarafından geliştirilmiştir — modern hosting, domain ve sunucu çözümleri. Scaefy açık kaynak ekosisteminin bir parçasıdır.*

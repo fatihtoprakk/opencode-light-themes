@@ -4,15 +4,6 @@
 
 A curated collection of light color themes for [OpenCode](https://opencode.ai).
 
-Built by **Scaefy** — modern hosting, domain, and server solutions. Learn more at [scaefy.com](https://scaefy.com).
-
-| Platform | Repository |
-|----------|------------|
-| GitHub | [github.com/fatihtoprakk/opencode-light-themes](https://github.com/fatihtoprakk/opencode-light-themes) |
-| GitLab | [gitlab.com/fatihtoprak/opencode-light-themes](https://gitlab.com/fatihtoprak/opencode-light-themes) |
-
----
-
 ## Why This Repository is Needed
 
 OpenCode has not removed light (light mode) themes, but recent updates to the menu structure and bug fixes have made them harder to find or they may appear temporarily unavailable. The main reasons users might have difficulty accessing light themes are:
@@ -102,6 +93,15 @@ MIT
 
 ---
 
+## Repositories
+
+| Platform | URL |
+|----------|-----|
+| GitHub | [github.com/fatihtoprakk/opencode-light-themes](https://github.com/fatihtoprakk/opencode-light-themes) |
+| GitLab | [gitlab.com/fatihtoprak/opencode-light-themes](https://gitlab.com/fatihtoprak/opencode-light-themes) |
+
+---
+
 [![Awesome Opencode](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/awesome-opencode/awesome-opencode)
 
-*Part of the [Scaefy](https://scaefy.com) open source ecosystem.*
+*Built by [Scaefy](https://scaefy.com) — modern hosting, domain, and server solutions. Part of the Scaefy open source ecosystem.*

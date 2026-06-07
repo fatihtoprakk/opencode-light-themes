@@ -123,4 +123,6 @@ MIT
 
 ---
 
+[![Awesome Opencode](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/awesome-opencode/awesome-opencode)
+
 *Part of the [Scaefy](https://scaefy.com) open source ecosystem.*

@@ -42,6 +42,20 @@ To activate a light theme, press **Ctrl + P**, type `"Switch to light mode"`, an
 | scaefy-github-light | A light theme based on GitHub's own color scheme | ![scaefy-github-light](screenshots/scaefy-github-light.png) |
 | scaefy-github-plus | A modern light theme inspired by GitHub color palette | ![scaefy-github-plus](screenshots/scaefy-github-plus.png) |
 
+## Pastel themes (aka)
+
+Pastel variants added from OpenCode's built-in themes, renamed with the `scaefy-` prefix. The parenthetical alias shows the original theme name.
+
+| Theme | Description | Screenshot |
+|-------|-------------|------------|
+| scaefy-catppuccin-latte | Catppuccin Latte — lavender-gray base with pastel blue/purple accents (aka Catppuccin Latte) | ![scaefy-catppuccin-latte](screenshots/scaefy-catppuccin-latte.png) |
+| scaefy-rose-pine-dawn | Rose Pine Dawn — warm cream base with muted pastel purple/teal accents (aka Rose Pine Dawn) | ![scaefy-rose-pine-dawn](screenshots/scaefy-rose-pine-dawn.png) |
+| scaefy-flexoki-paper | Flexoki — paper-white base with muted earthy accents (aka Flexoki Light) | ![scaefy-flexoki-paper](screenshots/scaefy-flexoki-paper.png) |
+| scaefy-everforest-light | Everforest — soft cream base with green/teal pastel accents (aka Everforest Light) | ![scaefy-everforest-light](screenshots/scaefy-everforest-light.png) |
+| scaefy-ayu-light | Ayu — near-white base with soft pastel accents (aka Ayu Light) | ![scaefy-ayu-light](screenshots/scaefy-ayu-light.png) |
+| scaefy-kanagawa-lotus | Kanagawa Lotus — warm beige base with muted pastel purple/pink accents (aka Kanagawa Lotus) | ![scaefy-kanagawa-lotus](screenshots/scaefy-kanagawa-lotus.png) |
+
+
 ---
 
 ## Installation

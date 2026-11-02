@@ -44,6 +44,20 @@ Açık temayı etkinleştirmek için **Ctrl + P** tuşlarına basın, `"Switch t
 | scaefy-github-light | GitHub'ın renk şemasını temel alan açık tema | ![scaefy-github-light](screenshots/scaefy-github-light.png) |
 | scaefy-github-plus | GitHub renk paletinden ilham alan modern açık tema | ![scaefy-github-plus](screenshots/scaefy-github-plus.png) |
 
+## Pastel temalar (aka)
+
+OpenCode'un yerleşik temalarından alınan pastel varyantlar, `scaefy-` önekiyle yeniden adlandırıldı. Parantez içindeki takma ad orijinal tema adını gösterir.
+
+| Tema | Açıklama | Ekran Görüntüsü |
+|------|----------|-----------------|
+| scaefy-catppuccin-latte | Catppuccin Latte — lavanta-gri zemin, pastel mavi/mor vurgular (aka Catppuccin Latte) | ![scaefy-catppuccin-latte](screenshots/scaefy-catppuccin-latte.png) |
+| scaefy-rose-pine-dawn | Rose Pine Dawn — sıcak krem zemin, muted pastel mor/teal vurgular (aka Rose Pine Dawn) | ![scaefy-rose-pine-dawn](screenshots/scaefy-rose-pine-dawn.png) |
+| scaefy-flexoki-paper | Flexoki — kağıt beyazı zemin, muted toprak tonlu vurgular (aka Flexoki Light) | ![scaefy-flexoki-paper](screenshots/scaefy-flexoki-paper.png) |
+| scaefy-everforest-light | Everforest — soft krem zemin, yeşil/teal pastel vurgular (aka Everforest Light) | ![scaefy-everforest-light](screenshots/scaefy-everforest-light.png) |
+| scaefy-ayu-light | Ayu — neredeyse beyaz zemin, soft pastel vurgular (aka Ayu Light) | ![scaefy-ayu-light](screenshots/scaefy-ayu-light.png) |
+| scaefy-kanagawa-lotus | Kanagawa Lotus — sıcak bej zemin, muted pastel mor/pembe vurgular (aka Kanagawa Lotus) | ![scaefy-kanagawa-lotus](screenshots/scaefy-kanagawa-lotus.png) |
+
+
 ---
 
 ## Kurulum

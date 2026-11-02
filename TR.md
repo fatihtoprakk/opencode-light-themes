@@ -54,7 +54,6 @@ OpenCode'un yerleşik temalarından alınan pastel varyantlar, `scaefy-` önekiy
 | scaefy-rose-pine-dawn | Rose Pine Dawn — sıcak krem zemin, muted pastel mor/teal vurgular (aka Rose Pine Dawn) | ![scaefy-rose-pine-dawn](screenshots/scaefy-rose-pine-dawn.png) |
 | scaefy-flexoki-paper | Flexoki — kağıt beyazı zemin, muted toprak tonlu vurgular (aka Flexoki Light) | ![scaefy-flexoki-paper](screenshots/scaefy-flexoki-paper.png) |
 | scaefy-everforest-light | Everforest — soft krem zemin, yeşil/teal pastel vurgular (aka Everforest Light) | ![scaefy-everforest-light](screenshots/scaefy-everforest-light.png) |
-| scaefy-ayu-light | Ayu — neredeyse beyaz zemin, soft pastel vurgular (aka Ayu Light) | ![scaefy-ayu-light](screenshots/scaefy-ayu-light.png) |
 | scaefy-kanagawa-lotus | Kanagawa Lotus — sıcak bej zemin, muted pastel mor/pembe vurgular (aka Kanagawa Lotus) | ![scaefy-kanagawa-lotus](screenshots/scaefy-kanagawa-lotus.png) |
 
 

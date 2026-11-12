@@ -106,6 +106,22 @@ set -Ux COLORTERM truecolor    # fish (kalıcı)
 
 Ardından yeni bir terminal oturumu açıp OpenCode'u yeniden başlatın. Bu ayar olmadan `#FBF7EE` ve `#F6F0E4` gibi değerler aynı palet girdisine (`#EEEEEE`) çöküyor ve `scaefy-folio-light` gibi temaların katmanlı kağıt görünümü düzleşiyor.
 
+### Termius
+
+Termius `COLORTERM` değişkenini tanımlamaz; bu yüzden bu depodaki tüm temalar varsayılan olarak 256 renkte çizilir — zemin düz nötr gri görünür, vurgu renkleri kayar. Bu bir tema sorunu değil, terminal ayarıdır.
+
+1. Kabuk profilinizde `COLORTERM` değerini `truecolor` yapın:
+   - bash / zsh: `~/.bashrc`, `~/.zshrc` veya `~/.zprofile` içine `export COLORTERM=truecolor`
+   - fish: `set -Ux COLORTERM truecolor`
+2. **Yeni** bir Termius sekmesi açın — açık oturum, başladığı ortamı korur.
+3. OpenCode'u yeniden başlatıp temayı tekrar seçin.
+
+Termius sürümünüzün gerçekten 24-bit çizip çizmediğini görmek için yeni sekmede şunu çalıştırın:
+
+```bash
+printf '\033[48;2;251;247;238m      \033[0m   <- sıcak krem görünmeli
+```
+
 ---
 
 ## Katkı

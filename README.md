@@ -104,6 +104,22 @@ set -Ux COLORTERM truecolor    # fish (persistent)
 
 Then open a new terminal session and restart OpenCode. Without this, values such as `#FBF7EE` and `#F6F0E4` collapse onto the same palette entry (`#EEEEEE`), which flattens the layered paper look of themes like `scaefy-folio-light`.
 
+### Termius
+
+Termius does not export `COLORTERM`, so every theme in this repository renders in 256 colors by default — the background looks like flat neutral grey and the accents shift hue. This is a terminal setting, not a theme problem.
+
+1. Set `COLORTERM` to `truecolor` in your shell profile:
+   - bash / zsh: `export COLORTERM=truecolor` in `~/.bashrc`, `~/.zshrc` or `~/.zprofile`
+   - fish: `set -Ux COLORTERM truecolor`
+2. Open a **new** Termius tab — the running session keeps the environment it started with.
+3. Restart OpenCode and reselect the theme.
+
+To check whether your Termius build actually draws 24-bit color, run this in a new tab:
+
+```bash
+printf '\033[48;2;251;247;238m      \033[0m   <- should look like warm cream
+```
+
 ---
 
 ## Contributing

@@ -91,6 +91,21 @@ Start OpenCode and use the `/theme` command to select your theme, or set it in `
 
 ---
 
+## Terminal color support
+
+These themes are authored in 24-bit color. If a theme looks washed out — the background turns neutral grey, the warm paper tones disappear, or accents shift hue — your terminal is falling back to the 256-color palette.
+
+`TERM=xterm-256color` alone is not enough: OpenCode only emits 24-bit color when `COLORTERM` is `truecolor` or `24bit`.
+
+```bash
+export COLORTERM=truecolor     # bash / zsh
+set -Ux COLORTERM truecolor    # fish (persistent)
+```
+
+Then open a new terminal session and restart OpenCode. Without this, values such as `#FBF7EE` and `#F6F0E4` collapse onto the same palette entry (`#EEEEEE`), which flattens the layered paper look of themes like `scaefy-folio-light`.
+
+---
+
 ## Contributing
 
 1. Fork the repository

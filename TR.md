@@ -93,6 +93,21 @@ OpenCode'u başlatın ve tema seçmek için `/theme` komutunu kullanın veya `tu
 
 ---
 
+## Terminal renk desteği
+
+Bu temalar 24-bit renk ile hazırlandı. Tema soluk görünüyorsa — zemin nötr griye dönüyor, sıcak kağıt tonları kayboluyor veya vurgu renkleri kayıyorsa — terminaliniz 256 renk paletine düşüyor demektir.
+
+Tek başına `TERM=xterm-256color` yeterli değil: OpenCode, `COLORTERM` değeri `truecolor` ya da `24bit` olduğunda 24-bit renk üretir.
+
+```bash
+export COLORTERM=truecolor     # bash / zsh
+set -Ux COLORTERM truecolor    # fish (kalıcı)
+```
+
+Ardından yeni bir terminal oturumu açıp OpenCode'u yeniden başlatın. Bu ayar olmadan `#FBF7EE` ve `#F6F0E4` gibi değerler aynı palet girdisine (`#EEEEEE`) çöküyor ve `scaefy-folio-light` gibi temaların katmanlı kağıt görünümü düzleşiyor.
+
+---
+
 ## Katkı
 
 1. Depoyu fork edin

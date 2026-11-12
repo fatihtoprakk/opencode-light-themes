@@ -18,6 +18,12 @@
   - scaefy-netbeans-light, scaefy-quiet-light, scaefy-hop-light
   - scaefy-github-light, scaefy-github-plus
 
+## 1.2.1 (2026-11-02)
+
+- Added 5 pastel themes from OpenCode's built-in set (scaefy-*)
+  - scaefy-catppuccin-latte, scaefy-rose-pine-dawn, scaefy-flexoki-paper
+  - scaefy-everforest-light, scaefy-kanagawa-lotus
+
 ## 1.3.0 (2026-11-12)
 
 - Added scaefy-folio-light, a paper & ink light theme ported from the Folio theme in Pane

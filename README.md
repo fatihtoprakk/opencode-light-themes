@@ -41,6 +41,7 @@ To activate a light theme, press **Ctrl + P**, type `"Switch to light mode"`, an
 | scaefy-hop-light | A fresh, hop-inspired light theme with italic variants | ![scaefy-hop-light](screenshots/scaefy-hop-light.png) |
 | scaefy-github-light | A light theme based on GitHub's own color scheme | ![scaefy-github-light](screenshots/scaefy-github-light.png) |
 | scaefy-github-plus | A modern light theme inspired by GitHub color palette | ![scaefy-github-plus](screenshots/scaefy-github-plus.png) |
+| scaefy-folio-light | Folio — paper & ink: warm cream stock, near-black type, one vermilion accent | ![scaefy-folio-light](screenshots/scaefy-folio-light.png) |
 
 ## Pastel themes (aka)
 
@@ -97,6 +98,12 @@ Start OpenCode and use the `/theme` command to select your theme, or set it in `
 3. Add a screenshot under `screenshots/`
 4. Update README.md table
 5. Submit a Pull Request
+
+---
+
+## Acknowledgements
+
+`scaefy-folio-light` ports the **Folio** palette from [Pane](https://github.com/greenfield-inc/Pane) (AGPL-3.0). Only the color values were re-expressed in OpenCode's theme format; no Pane source code is included in this repository.
 
 ---
 

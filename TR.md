@@ -43,6 +43,7 @@ Açık temayı etkinleştirmek için **Ctrl + P** tuşlarına basın, `"Switch t
 | scaefy-hop-light | Hop temalı, italik varyantları olan ferah bir tema | ![scaefy-hop-light](screenshots/scaefy-hop-light.png) |
 | scaefy-github-light | GitHub'ın renk şemasını temel alan açık tema | ![scaefy-github-light](screenshots/scaefy-github-light.png) |
 | scaefy-github-plus | GitHub renk paletinden ilham alan modern açık tema | ![scaefy-github-plus](screenshots/scaefy-github-plus.png) |
+| scaefy-folio-light | Folio — kağıt & mürekkep: sıcak krem kağıt, koyu mürekkep metin, tek vermilion vurgu | ![scaefy-folio-light](screenshots/scaefy-folio-light.png) |
 
 ## Pastel temalar (aka)
 
@@ -99,6 +100,12 @@ OpenCode'u başlatın ve tema seçmek için `/theme` komutunu kullanın veya `tu
 3. Ekran görüntüsünü `screenshots/` altına ekleyin
 4. README.md tablosunu güncelleyin
 5. Pull Request gönderin
+
+---
+
+## Teşekkürler
+
+`scaefy-folio-light`, [Pane](https://github.com/greenfield-inc/Pane) (AGPL-3.0) uygulamasındaki **Folio** paletinin portudur. Burada yalnızca renk değerleri OpenCode tema formatına uyarlandı; Pane kaynak kodu bu depoda yer almıyor.
 
 ---
 

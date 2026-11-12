@@ -17,3 +17,7 @@
   - scaefy-bluloco-light, scaefy-brackets-light-pro, scaefy-ysgrifennwr
   - scaefy-netbeans-light, scaefy-quiet-light, scaefy-hop-light
   - scaefy-github-light, scaefy-github-plus
+
+## 1.3.0 (2026-11-12)
+
+- Added scaefy-folio-light, a paper & ink light theme ported from the Folio theme in Pane
